@@ -23,7 +23,7 @@ const startServer = async () => {
     database: 'school',
   });
 
-  app.get('/', function (req, res) {
+  app.get('/', (req, res) => {
     res.send("API is working");
   })
   // Endpoint to get all student records

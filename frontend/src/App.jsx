@@ -7,6 +7,7 @@ import Cart from './pages/Cart/Cart'
 import Student from './pages/Student/Student'
 import CitySelector from './pages/CitySelector/CitySelector'
 import Attendance from './pages/Attendance/Attendance'
+import Admin from './pages/Admin/Admin'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/cart' element={<Cart />} />
         <Route path='/student' element={<Student />} />
         <Route path='/attendance' element={<Attendance />} />
+        <Route path='/admin' element={<Admin />} />
         <Route path='/city' element={<CitySelector />} />
       </Routes>
     </div>

@@ -5,7 +5,7 @@ class studentService {
         this.model = studentModel;
     }
 
-    async addStudentDetails(data) {
+    async createStudent(data) {
         try {
             const result = await this.model.create(data);
             return result;
